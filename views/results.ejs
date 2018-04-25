@@ -1,0 +1,10 @@
+<h1>THIS IS THE RESULTS PAGE</h1>
+
+<% data["Search"].forEach(function(movie){ %>
+    <li>
+        <%=  movie["Title"]; %>
+        <p> </p>
+        <img src="<%=movie["Poster"];%>">
+        <p> </p>
+        </li>
+<% }) %>
